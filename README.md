@@ -1,11 +1,11 @@
 # Asana Tiny Go
 
 This is a very (!) tiny API wrapper for [Asana](https://asana.com/developers), specifically
-to create tasks. It doesn’t do anything else but creat tasks. I might add more functionality
+to create tasks. It doesn’t do anything else but create tasks. I might add more functionality
 in the future, but there are no promises.
 
 It is also severely limited in its functionality when creating tasks. The only parameters it
-supports are
+supports are:
 
 ```go
 type TaskRequest struct {
